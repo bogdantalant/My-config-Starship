@@ -1,0 +1,42 @@
+format = """
+$cmd_duration $directory
+$username$hostname$character"""
+
+palette = 'sky-capsule'
+
+[palettes.sky-capsule]
+fg_color = '#EDEDED'
+dark_bg = '#121212'
+alt_bg = '#1c1c1c'
+green_color = '#98E6A2'
+red_color = '#FF6B6B'
+blue_color = '#78B8FF'
+
+[username]
+show_always = true
+format = "[$user](fg:fg_color)"
+disabled = false
+
+[hostname]
+ssh_only = false
+format = "[@$hostname](fg:fg_color) "
+disabled = false
+
+[character]
+success_symbol = "[❯](fg:green_color)"
+error_symbol = "[❯](fg:red_color)"
+
+[package]
+disabled = true
+
+[directory]
+format = "[](bold fg:blue_color bg:none)[ ](bold fg:dark_bg bg:blue_color)[](fg:blue_color bg:alt_bg)[ $path]($style)[](fg:alt_bg bg:none)"
+style = "fg:fg_color bg:alt_bg"
+truncation_length = 3
+truncate_to_repo = false
+home_symbol = "~"
+
+[cmd_duration]
+min_time = 0
+format = "[](bold fg:blue_color bg:none)[ ](bold fg:dark_bg bg:blue_color)[](fg:blue_color bg:alt_bg)[ $duration]($style)[](fg:alt_bg bg:none)"
+style = "fg:fg_color bg:alt_bg"
