@@ -7,10 +7,10 @@ A minimal and aesthetic Starship prompt configuration featuring smooth capsule-s
 ## Screenshots
 
 ### Default
-![Default Theme](.github/image/starship-default.png)
+![Default Theme](image/starship-default.png)
 
 ### Apple Variant
-![Apple Theme](.github/image/starship-apple.png)
+![Apple Theme](image/starship-apple.png)
 
 ---
 
