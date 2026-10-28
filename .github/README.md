@@ -19,18 +19,14 @@ A minimal, capsule-style [Starship](https://starship.rs) prompt configuration wi
 ## Installation
 
 1. Install [Starship](https://starship.rs).
-2. Download and install [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads).
-3. Clone this repository:
+2. Initialize Starship in your shell using the [official guide](https://starship.rs/guide/).
+3. Download and install [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads).
+4. Clone this repository:
 
    ```bash
    git clone https://github.com/bogdantalant/My-config-Starship.git
    cd My-config-Starship
    ```
 
-4. Choose your preferred variant: **Default** or **Apple**.
-5. Copy its configuration to `~/.config/starship.toml`.
-6. Initialize Starship in your shell using the [official guide](https://starship.rs/guide/).
-
-## License
-
-See [LICENSE](LICENSE).
+5. Choose your preferred variant: **Default** or **Apple**.
+6. Copy its configuration to `~/.config/starship.toml`.
